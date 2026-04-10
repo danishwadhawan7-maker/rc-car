@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperTransport | Premium RC Experience</title>
+    <meta name="description" content="Experience the ultimate FPV racing with SuperTransport. High-end RC car, zero-latency VR headset, and precision remote control.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ambient-layer">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <header class="navbar glass-nav">
+        <div class="logo">SuperTransport</div>
+        <nav class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#cta" class="glass-btn">Pre-Order</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content reveal active">
+                <div class="glass-badge">PROTOTYPE V1</div>
+                <h1>DRIVE BEYOND<span>REALITY</span></h1>
+                <p>The ultimate FPV RC experience. Unleash unprecedented speed with real-time VR feedback.</p>
+                <div class="hero-actions">
+                    <a href="#cta" class="btn-large glass-btn hover-glow">Explore the Kit</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual reveal active" style="transition-delay: 0.2s;">
+                <div class="glow-orb"></div>
+                <!-- Layered Glass Effect -->
+                <div class="glass-panel backdrop-panel"></div>
+                <div class="placeholder-card main-car glass-panel front-panel" style="padding:0; overflow:hidden;">
+                     <img src="./photo1.png" alt="SuperTransport Car" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="section-header reveal text-center">
+                <h2>The Triad of Power</h2>
+                <p class="muted">Engineered for precision. Built for adrenaline.</p>
+            </div>
+            
+            <div class="feature-grid">
+                <div class="feature-card glass-panel reveal">
+                    <div class="card-visual">
+                        <img src="./photo2.png" alt="VR Headset" style="width: 100%; height: 220px; object-fit: cover;">
+                        <div class="glass-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Zero-Latency FPV</h3>
+                        <p>Immerse yourself in the driver's seat with our state-of-the-art VR headset. 120fps streaming directly from the car's cockpit.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card glass-panel reveal" style="transition-delay: 0.2s">
+                    <div class="card-visual">
+                         <img src="./photo3.png" alt="Remote Control" style="width: 100%; height: 220px; object-fit: cover;">
+                         <div class="glass-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Tactical Precision</h3>
+                        <p>Awe-inspiring control. Dual haptic joysticks, aerospace-grade aluminum triggers, and advanced telemetry display.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card glass-panel reveal" style="transition-delay: 0.4s">
+                    <div class="card-visual">
+                         <img src="./photo4.png" alt="RC Chassis" style="width: 100%; height: 220px; object-fit: cover;">
+                         <div class="glass-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Titanium Core</h3>
+                        <p>Brushless motor delivering 60mph+ top speeds, paired with adaptive hydraulic suspension and dynamic steering.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="section-header reveal text-center">
+                <h2>Prototype Gallery</h2>
+                <p class="muted">A closer look at the engineering.</p>
+            </div>
+            <div class="gallery-grid">
+                 <div class="gallery-item glass-panel reveal">
+                     <img src="./photo5.jpg" alt="Gallery Photo 5">
+                     <div class="glass-caption">Chassis Engineering</div>
+                 </div>
+                 <div class="gallery-item glass-panel reveal" style="transition-delay: 0.2s">
+                     <img src="./photo6.png" alt="FPV Setup">
+                     <div class="glass-caption">FPV Setup</div>
+                 </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta-section reveal">
+             <div class="cta-box glass-panel mega-glass">
+                 <h2>Ready to Dominate?</h2>
+                 <p>Join the revolution of remote racing.</p>
+                 <button class="btn-primary glass-btn hover-glow">Reserve Yours Now</button>
+             </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="brand">SuperTransport &copy; 2026</div>
+            <div class="links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
